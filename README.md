@@ -49,6 +49,10 @@ $ npm install
 # Iniciar o projeto:
 > $ npm run serve
 
+# Para testar todas as funcionalidades faça uso de um login admin:
+- Login: admin@exemplo.com
+- Senha: admin
+
 ```
 
 # Por enquanto é só! Obrigado ;)
