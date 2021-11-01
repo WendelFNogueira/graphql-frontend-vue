@@ -63,10 +63,24 @@ export default {
         }
     },
     methods: {
+
+        validarEmail(email) {
+            var regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+            return regex.test(email);
+        },
         registrar() {
 
             this.dados = null;
             this.loading = true;
+
+            const emailValido = this.validarEmail(this.usuario.email);
+
+            if(!emailValido) {
+                const err = new Error("Email Inválido!");
+                this.erros = err;
+                this.loading = false;
+                return;
+            }
 
             this.$api.mutate({
                 mutation: gql`
