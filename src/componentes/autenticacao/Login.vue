@@ -95,6 +95,7 @@ export default {
                 this.loading = null;
                 this.setUsuario(this.dados);
             }).catch(err => {
+                this.loading = null;
                 this.erros = err;
             });
         }

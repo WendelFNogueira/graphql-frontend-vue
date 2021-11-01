@@ -97,6 +97,7 @@ export default {
                 this.erros = null;
                 this.loading = null;
             }).catch(err => {
+                this.loading = null;
                 this.erros = err;
             });
         }
