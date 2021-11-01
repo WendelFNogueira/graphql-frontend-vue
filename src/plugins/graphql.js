@@ -8,7 +8,7 @@ Vue.use({
     install(Vue) {
         //ApolloLink
         const httpLink = createHttpLink({
-            uri: 'http://localhost:4000/'
+            uri: 'https://api-graphql-backend.herokuapp.com/'
         });
 
         //ApolloLink
