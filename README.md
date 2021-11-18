@@ -13,7 +13,7 @@
 
 ## :speech_balloon: Sobre <a name="about"></a>
 
-> Este projeto é uma API GraphQL desenvolvida com CRUD completo como exame final do curso de GraphQL: Criando APIs Profissionais e Flexíveis, fornecido pela Cod3r Cursos Online através da plataforma Udemy. O projeto foi dividido em backend e frontend, neste repo abordaremos o frontend.
+> Este projeto é uma API GraphQL desenvolvida com CRUD completo como exame final do curso de GraphQL: Criando APIs Profissionais e Flexíveis, fornecido pela Cod3r Cursos Online através da plataforma Udemy. O projeto foi dividido em backend e frontend, neste repo abordaremos o frontend. Acesse em produção aqui: https://api-graphql-frontend.herokuapp.com/
 
 <br>
 
